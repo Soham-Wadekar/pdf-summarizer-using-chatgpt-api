@@ -8,4 +8,6 @@ To run the Flask application, adhere to the following instructions:
 1. Go to the project directory using command line interface
 2. Create a virtual environment using the command: python -m venv env
 3. Activate the environment using the following command: source env/bin/activate
-4. Run the application using the command: python app.py
+4. Install the libraries `flask`, `openai` and `PyPDF2` using the command: `pip install flask openai PyPDF2`
+5. Run the application using the command: python app.py
+6. Go to `http://127.0.0.1:5000/` to view the application
